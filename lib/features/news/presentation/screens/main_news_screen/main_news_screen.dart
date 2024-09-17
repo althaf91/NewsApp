@@ -174,7 +174,7 @@ class RecentNewsScreen extends StatelessWidget {
                               mainAxisSpacing: 10,
                               children: state.news.map((news)=>  GestureDetector(
                                 onTap: () => {
-                                  context.go('/detail',extra: news)},
+                                  context.push('/detail',extra: news)},
                                 child: getNewsItem(news),
                               )).toList(),
                             )

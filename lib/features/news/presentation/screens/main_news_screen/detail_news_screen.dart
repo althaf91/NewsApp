@@ -17,6 +17,12 @@ class DetailNewsScreen extends StatelessWidget {
         elevation: 0,
         iconTheme: const IconThemeData(color: Colors.white),// Remove shadow
         title: const Text(''),
+        leading: IconButton(
+          icon: const Icon(Icons.arrow_back),
+          onPressed: () {
+            context.pop();
+          },
+        ),
         actions: [
           IconButton(
             icon: const Icon(Icons.home),
