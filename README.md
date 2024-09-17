@@ -1,6 +1,6 @@
 #News App
 
-Flutter App using Bloc,get_it(Dependency injection),Dio(Network Client)
+Flutter App using Clean Architecture, Bloc,get_it(Dependency injection),Dio(Network Client)
 
 #Features:
 
